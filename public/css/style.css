@@ -1,0 +1,146 @@
+body {
+    font-family: 'Nerko One', cursive !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+
+}
+
+.container {
+    flex: 1;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    height: 5rem;
+}
+
+.fa-compass {
+    font-size: 2rem;
+    color: #FF385C;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.f-info-socials i:hover {
+    cursor: pointer;
+}
+
+.f-info {
+    text-align: center;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    height: 8rem;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Cards */
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.reviews-card {
+    border: 1px solid black !important;
+    padding: 10px;
+
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* Home Page */
+.index-img {
+    object-fit: cover;
+}
+
+
+/* Card effects */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: #fff;
+}
+
+
+
+/* New Page */
+.add-btn {
+    background-color: #FF385C !important;
+    border: white !important;
+    width: 100%;
+    height: 3rem;
+    font-weight: 600 !important;
+}
+
+/* Edit page */
+.edit-btn {
+    width: 100%;
+    height: 3rem;
+}
+
+/* Show Page */
+.show-img {
+    height:40vh;
+    width: 45vw !important;
+    object-fit: cover ;
+}
+
+/* SignUp Page */
+.signUp-btn{
+    background-color: #FF385C !important;
+    border: white !important;
+    color: white !important;
+    width: 100%;
+    height: 3rem;
+    font-weight: 600 !important;
+}

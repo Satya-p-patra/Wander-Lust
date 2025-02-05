@@ -1,0 +1,28 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<div class="row offset-2 mt-5">
+  <div class="col-8">
+    <h2 style="font-size: 2rem">Are You Sure..?</h2>
+    <br />
+    <div class="row">
+      <div class="col-3">
+        <form
+          action="/listings/<%= listing._id %>?_method=DELETE"
+          method="POST"
+        >
+          <button class="btn btn-outline-primary" style="width: 100%">
+            Yes
+          </button>
+          &nbsp;
+        </form>
+      </div>
+      <div class="col-3">
+        <a
+          href="/listings/<%= listing._id %>"
+          class="btn btn-outline-danger"
+          style="width: 100%"
+          >No</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
